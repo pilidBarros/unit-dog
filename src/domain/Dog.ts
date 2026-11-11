@@ -46,7 +46,7 @@ export class Dog {
    */
   sleep(): string {
     // TODO: leer el jsdoc
-    return `${this.name} is sleeping`;
+    return "Dog is sleeping";
   }
 
   /**
@@ -56,7 +56,7 @@ export class Dog {
    */
   wakeUp(): string {
     // TODO: leer el jsdoc
-    return `${this.name} woke up`;
+    return "The dog woke up";
   }
 
   /**
@@ -90,6 +90,6 @@ export class Dog {
    */
   displayInfo(): string {
     // TODO: leer el jsdoc
-    return `${this.name} - ${this.age} - ${this.color} - ${this.breed} - ${this.isSleeping} - ${this.tricks}`;
+    return `${this.name} - ${this.breed} - ${this.age} - ${this.color}`;
   }
 }
